@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*header section*/
+header{
+    background-color: #F6F6F7;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    /*
+    position: fixed always abears;
+    z-index: 999 up every thing;
+    */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #401267;
+    text-transform: uppercase;
+    font-weight: 650;
+    font-size: 30px;
+    font-family: monospace;
+    letter-spacing: 0.5px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #401267;
+    text-transform: uppercase;
+    font-weight: 450;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+.navigation a:hover{
+    color: #867297;
+}
+
+section{
+    padding: 200px 200px;
+}
+
+/*'about' section*/
+#About{
+    color: #130023;
+    background-color: #E6E0EB;
+    width: 100%;
+    min-height: 100vh;
+    /*align-items: center;*/
+}
+
+#About h1{
+    color: #473C50;
+    font-family: Monospace;
+    margin-top: 15px;
+    font-weight: 650;
+}
+
+.icons a{
+    color: #130023;
+    font-size: 25px;
+    padding-right: 20px;
+    
+}
+
+.icons a:hover{
+    color: #473C50;
+}
+
+/*'skills' section*/
+#skills{
+    color: #130023;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#skills > div{
+    display: flex;
+}
+
+.languages{
+    margin-right: 100px;
+}
+
+.skill{
+    margin-left: 100px;
+}
+
+.bar{
+    background-color: #F6F6F7;
+    width: 470px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.bar-container p{
+    padding-top: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.bar div{
+    background-color: #7E7A87;
+    border-radius: 30px;
+    height: 10px;
+}
+
+.bar div span{
+    font-size: 13px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 3px solid #7E7A87;
+    background-color: #F6F6F7;
+    color: #130023;
+    float: right;
+    margin-top: -13px;
+    margin-right: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill1{
+    width: 85%;
+}
+
+.skill2{
+    width: 33%;
+}
+
+.skill3{
+    width: 55%;
+}
+
+/*'education' section*/
+#edu{
+    color: #130023;
+    background-color: #E6E0EB;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#edu h3{
+    font-size: 35px;
+    color: #401267;
+    padding-bottom: 40px;
+}
+
+#edu a{
+    text-decoration: none;
+    color: #130023;
+    margin: 15px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+#edu a:hover{
+    color: #867297;
+    font-size: 20.5px;
+}
+
+#edu ul{
+    color: #130023;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#edu ul span{
+    font-weight: 600;
+    color: #401267;
+}
+
+/*'projects' section*/
+#projects{
+    color: #130023;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.p1{
+    display: flex;
+    justify-content: center;
+}
+
+#projects h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.project{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.project a{
+    text-decoration: none;
+    color: #473C50;
+    font-weight: 800;
+}
+
+.project a:hover{
+    color: #7E7A87;
+}
+
+/*'contact' section*/
+#contact{
+    color: #130023;
+    background-color: #E6E0EB;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#contact h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.contant{
+    display: flex;
+    justify-content: center;
+}
+
+.contant a{
+    text-decoration: none;
+    color: #130023;
+}
+
+.cards{
+    background-color: #F6F6F7;
+    width: 340px;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.cards:hover{
+    transform: scale(1.02);
+    background-color: #926a847a;
+}
+
+.icon{
+    color: #473C50;
+    font-size: 80px;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+/*footer section*/
+footer{
+    background-color: #F6F6F7;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+#copyright em{
+    font-family: Serif;
+    font-size: 20px;
+    color: #401267;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footerIcon a{
+    color: #401267;
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+
